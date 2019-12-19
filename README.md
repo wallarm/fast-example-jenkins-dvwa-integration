@@ -31,7 +31,7 @@ The changes ensure the build step does cleanup in case of failure. You may set t
 
 ### Jenkins preconfigured local example
 
-The preconfigured Jenkins example requires that Jenkins has access to `sudo` and `docker-compose`, which are lacking in the official Jenkins images. To ease of trying out this example, you can use a pre-built image with all the required configuration in place. For examples, [this one](https://github.com/fabianenardon/jenkins-docker-demo). It uses Docker on the host machine and requires installation of the GitHub plugin.
+The preconfigured Jenkins example requires that Jenkins has access to `sudo` and `docker-compose`, which are lacking in the official Jenkins images. To ease the running of the provided example, you may use a pre-built image with all the required configuration in place. For example, [this one](https://github.com/fabianenardon/jenkins-docker-demo). It uses Docker on the host machine and requires installation of the GitHub plugin.
 
 To run the Jenkins example locally, copy the contents of `jenkins_home` into your own Jenkins folder. Then check the configuration of the pipeline: both git and buildsteps should already be set as described above.
 

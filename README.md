@@ -37,6 +37,6 @@ To run the Jenkins example locally, copy the contents of `jenkins_home` into you
 
 ### Jenkins live demo
 
-A pre-configured and running Jenkins example is available at https://jenkinsfast.demo.wallarm.com/ (user:demo, pass:demo). 
+A pre-configured and running Jenkins example is available at https://jenkinsfast.demo.wallarm.com (user:demo, pass:demo). 
 
 You can launch builds with your Wallarm TOKEN (and monitor the progress at https://us1.my.wallarm.com/testing).
